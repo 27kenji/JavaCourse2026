@@ -1,9 +1,11 @@
 package com.base.faker_homework;
+import io.qameta.allure.Step;
 import net.datafaker.Faker;
 
 public class CartFactory {
     private static final Faker FAKER = new Faker();
 
+    @Step("Создаем корзину с количеством {size}")
     static Cart newCart(int size) {
         Cart cart = Cart.builder()
                 .userId(FAKER.random().nextLong(0,50))
