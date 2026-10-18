@@ -1,4 +1,4 @@
-package com.base;
+package com.base.assertj_homework;
 import com.OrderHelpers;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

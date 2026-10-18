@@ -18,6 +18,8 @@ dependencies {
     testAnnotationProcessor "org.projectlombok:lombok:1.18.42"
     testImplementation("com.fasterxml.jackson.core:jackson-databind:2.22.3")
     testImplementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.22.3")
+    testImplementation("org.aeonbits.owner:owner:1.0.12")
+    testImplementation("net.datafaker:datafaker:2.7.0")
 }
 
 tasks.withType(JavaExec) {
